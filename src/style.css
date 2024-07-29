@@ -1,1 +1,52 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+#card {
+  background-color: whitesmoke;
+  border: solid 1px;
+  width: 300px;
+  height: 400px;
+  margin: 100px auto;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px black;
+}
+#rarriba {
+  height: 80px;
+  display: flex;
+}
+#medio {
+  width: 300px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rabajo {
+  height: 80x;
+  display: flex;
+  transform: rotate(-180deg);
+}
+p {
+  margin: 0;
+  width: 70px;
+  height: 70px;
+  font-size: 70px;
+  text-align: center;
+}
+span {
+  font-size: 150px;
+}
+/* #medio1 {
+  font-size: 150px;
+} */
+button {
+  font-size: x-large;
+  width: 100px;
+  height: 50px;
+  border-radius: 20%;
+  box-shadow: 3px 3px rgb(53, 51, 51);
+}
+#boton {
+  display: flex;
+  justify-content: center;
+}
